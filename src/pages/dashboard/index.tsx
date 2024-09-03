@@ -7,7 +7,8 @@ const DashboardPage = () => {
   return <div>{userState.count}
     <button onClick={() => {
         updateUserState({ type: "INCREMENT" })
-      }}>Hi Click Me</button>
+      }}>Hi Click Me again
+      </button>
   </div>;
 };
 
