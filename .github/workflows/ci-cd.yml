@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - production
+      - main
   pull_request:
     branches:
       - production
